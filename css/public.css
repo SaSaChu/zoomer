@@ -1,0 +1,15 @@
+*, *:after, *:before { vertical-align: top; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; -moz-osx-font-smoothing: subpixel-antialiased; -webkit-font-smoothing: subpixel-antialiased; -moz-font-smoothing: subpixel-antialiased; -ms-font-smoothing: subpixel-antialiased; -o-font-smoothing: subpixel-antialiased; }
+
+.zoomer, .small { background: url(../img/0hxkGe2LgLJ0R6HA90EOdYE0NKKzVJeDJCFGRodQtIfHQCLnwTFHxrPloVe3xLJDMQQWY6IAgYcCdULGJBE3g.jpg) no-repeat; position: absolute; }
+
+.zoomer { background-size: contain; height: 384px; left: 50%; margin: -192px; top: 50%; width: 512px; }
+
+.small { height: 100%; mask-image: radial-gradient(circle 0, #ffffff 90%, rgba(255, 255, 255, 0) 100%); -webkit-mask-image: radial-gradient(circle 0, #ffffff 90%, rgba(255, 255, 255, 0) 100%); width: 100%; }
+
+/*glass*/
+.mag { display: none; border: 3px solid #666; border-radius: 50%; pointer-events: none; width: 140px; height: 140px; margin: -73px 0 0 -73px; position: absolute; }
+.mag:before { content: ''; border-radius: 50%; position: absolute; transform: rotate(30deg); height: 135px; width: 135px; top: 3px; left: 3px; border-top: 12px solid rgba(255, 255, 255, 0.5); border-bottom: 4px solid rgba(255, 255, 255, 0.5); box-sizing: border-box; box-shadow: 0 0 2px rgba(255, 255, 255, 0.5) inset; }
+.mag:after { content: ''; position: absolute; transform: rotate(30deg); height: 90px; width: 12px; background: black; bottom: -78px; left: 6px; border-top: 10px solid #999; border-bottom: 3px solid #999; box-sizing: border-box; }
+
+/*shine*/
+/*handle*/
